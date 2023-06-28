@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deferred CSS Load</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/uncritical.css" id="uncritical-css" disabled>
+    <script src="js/script.js" async></script>
+</head>
+<body>
+    <header>
+        <h1>Deferred CSS Load</h1>
+    </header>
+    <main>
+        <div id="box">
+            When the CSS file gets loaded, this box will get red
+        </div>
+        <button id="load-css">Load CSS</button>
+    </main>
+    <footer>
+        <h3>&copy; 2022 Arturo Mora-Rioja</h3>
+    </footer>
+</body>
+</html>

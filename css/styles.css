@@ -1,0 +1,9 @@
+:root {
+    --colorPrimary: black;
+}
+
+#box {
+    border: solid var(--colorPrimary) thin;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}

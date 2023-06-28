@@ -1,0 +1,9 @@
+:root {
+    --colorPrimary: floralwhite;
+    --colorBgPrimary: red;
+}
+
+#box {
+    color: var(--colorPrimary);
+    background-color: var(--colorBgPrimary);
+}
