@@ -1,9 +1,11 @@
 :root {
-    --colorPrimary: floralwhite;
+    --colorText: floralwhite;
     --colorBgPrimary: red;
 }
 
 #box {
-    color: var(--colorPrimary);
+    color: var(--colorText);
     background-color: var(--colorBgPrimary);
+    border: solid thin var(--colorBgPrimary);
+    border-radius: 0.5rem;
 }
